@@ -86,6 +86,14 @@ public class CourierServiceImpl implements CourierServiceInter {
                 courier.setPassword(courierDto.getPassword());
             }
 
+            if (courierDto.getOnline() != null) {
+                courier.setOnline(courierDto.getOnline());
+            }
+
+            if (courierDto.getCurrentlyDelivering() != null) {
+                courier.setCurrentlyDelivering(courierDto.getCurrentlyDelivering());
+            }
+
             if (courierDto.getIsDisable() != null) {
                 courier.setIsDisable(courierDto.getIsDisable());
             }
