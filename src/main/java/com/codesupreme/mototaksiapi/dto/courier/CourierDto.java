@@ -25,6 +25,7 @@ public class CourierDto {
     private List<String> currentLocation;
     private String phoneNumber;
     private String password;
+    private Double balance;
     private Boolean online;
     private Boolean currentlyDelivering;
     @JsonProperty("isDisable")
